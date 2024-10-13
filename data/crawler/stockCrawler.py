@@ -21,6 +21,7 @@ for row in ele_list:
 
     item_list = []
     date = True
+    item_count = 1
     for item in items:
         if date:
             text = item.text
@@ -35,8 +36,17 @@ for row in ele_list:
             date = False
 
             item_list.append(text)
+            item_count += 1
+            continue
+        if item_count == 7:
+            volume_list = item.text.split(',')
+            total = 0
+            for i in range(len(volume_list)):
+                total += (10**((len(volume_list) - i - 1)*3))*int(volume_list[i])
+            item_list.append(total)
             continue
 
+        item_count += 1
         item_list.append(item.text)
     if stop:
         break    
@@ -45,5 +55,5 @@ for row in ele_list:
 
     
 data = pd.DataFrame(res_list, columns=['date', 'open', 'high', 'low', 'close', 'Adj close', 'volume'])
-data.to_csv(r'D:\CODING\Project\30DaysOfPython\Day10\stockPrice.csv', index=False, header=True, encoding='utf-8')
+data.to_csv(r'data\raw\stockPrice.csv', index=False, header=True, encoding='utf-8')
 driver.quit()

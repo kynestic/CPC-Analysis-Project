@@ -38,6 +38,6 @@ while True:
 
 data = pd.DataFrame(res_list, columns=['timestamp', 'events'])
 
-data.to_csv(r'D:\CODING\Project\30DaysOfPython\Day10\stocknews.csv' ,index=False ,encoding='utf-8', header=True)
+data.to_csv(r'data\raw\stocknews.csv' ,index=False ,encoding='utf-8', header=True)
     
 driver.quit()
