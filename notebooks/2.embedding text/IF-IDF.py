@@ -19,5 +19,5 @@ for index, row in df.iterrows():
 
 # Save the resulting DataFrame to a CSV file
 tfidf_results.fillna(0, inplace=True)
-tfidf_results.to_csv('data/processed/news_vector.csv', index=False)
+df['events'] = tfidf_results
 print("TF-IDF features extracted and saved to news_vector.csv")
