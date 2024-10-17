@@ -8,6 +8,7 @@ tfidf_results = pd.DataFrame()
 
 # Iterate over each row in the DataFrame
 for index, row in df.iterrows():
+    print(index)
     events_list = eval(row['events']) 
 
     tfidf_vectorizer = TfidfVectorizer()
@@ -18,6 +19,12 @@ for index, row in df.iterrows():
     tfidf_results = pd.concat([tfidf_results, tfidf_df], ignore_index=True)
 
 # Save the resulting DataFrame to a CSV file
+
 tfidf_results.fillna(0, inplace=True)
-df['events'] = tfidf_results
+if len(df['events']) != len(tfidf_results):
+    df['events'] = tfidf_results
+else:
+    print(len(df['events']))
+    print(len(tfidf_results))
+    tfidf_results.to_csv(r'D:\CODING\Project\NVIDIA Stock prediction\data\raw\IF-IDF_EmbeddingText.csv', index=False)
 print("TF-IDF features extracted and saved to news_vector.csv")
