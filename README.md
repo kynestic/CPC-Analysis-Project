@@ -64,9 +64,9 @@ In this section you should provide instructions on how to use this repository to
 
 ### Installation
 1. Clone the repo
-   ```sh
-   git clone https://github.com/kynestic/NVIDIA-Stock-prediction
-   ```
+  ```sh
+  git clone https://github.com/kynestic/NVIDIA-Stock-prediction
+  ```
 2. Setup (and activate) your environment
   ```sh
   python -m venv /path/to/new/virtual/environment
