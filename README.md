@@ -54,8 +54,6 @@ This project was created with the main goal of researching and learning how to u
 <!-- GETTING STARTED -->
 ## Getting Started
 
-In this section you should provide instructions on how to use this repository to recreate your project locally.
-
 ### Dependencies
 
 
@@ -69,7 +67,7 @@ In this section you should provide instructions on how to use this repository to
   python -m venv /path/to/new/virtual/environment
   /path/to/new/virtual/environment/Scripts/activate
   ```
-3. Để cài đặt các thư viện cần thiết, ta nhập lệnh sau vào terminal:
+3. To install the necessary libraries and frameworks, enter the following command into the terminal:
   ```sh
   cd path/to/project
   pip install -r requirements.txt
@@ -95,8 +93,8 @@ In this section you should provide instructions on how to use this repository to
 
 <!-- Authors -->
 ## Authors
-
-Nguyen Manh Duc - [Linkedin](https://www.linkedin.com/in/helloimkyne/) - ducnguyenmanh7791@gmail.com
+Nguyen Manh Duc - ducnguyenmanh7791@gmail.com
+Nguyen Thi Hai Yen - haiyen190903@gmail.com
 
 Project Link: [https://github.com/kynestic/NVIDIA-Stock-prediction](https://github.com/kynestic/NVIDIA-Stock-prediction)
 
