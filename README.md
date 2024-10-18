@@ -5,10 +5,9 @@
     <img src="images/gators.jpg" alt="Logo" width="150" height="150">
   </a>
 
-  <h3 align="center">README Template</h3>
+  <h3 align="center">NVIDIA Stock Prediction Project</h3>
 
   <p align="center">
-    NVIDIA Stock Prediction Project
     <br />
     <a href="https://github.com/catiaspsilva/README-template/blob/main/images/docs.txt"><strong>Explore the docs »</strong></a>
     <br />
