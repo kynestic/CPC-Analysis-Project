@@ -1,10 +1,12 @@
 import torch
-from transformers import BERTModel, BERTTokenizer
+import time
+from transformers import BertModel, BertTokenizer
 import numpy as np
 import pandas as pd
 
-tokenizer = BERTTokenizer.from_pretrained("bert-base-uncased", cache_dir='./model_cache')
-model = BERTModel.from_pretrained("bert-base-uncased", cache_dir='./model_cache')
+start_time = time.time()
+tokenizer = BertTokenizer.from_pretrained("bert-base-uncased", cache_dir='./model_cache')
+model = BertModel.from_pretrained("bert-base-uncased", cache_dir='./model_cache')
 
 df = pd.read_csv(r'data\processed\stock_news_price.csv')
 
@@ -29,4 +31,9 @@ for item in df['events']:
     embedding_text.append(mean_events_embedding)
 
 data = pd.DataFrame(embedding_text)
+data['timestamp'] = df['timestamp']
 data.to_csv(r'data\embedding_text\CLIP_EmbeddingText.csv', index=False)
+
+end_time = time.time()
+execution_time = end_time - start_time
+print(f"Execution time: {execution_time} seconds")
