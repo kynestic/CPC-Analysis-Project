@@ -90,7 +90,6 @@ This project was created with the main goal of researching and learning how to u
 ## License
 .
 
-
 <!-- Authors -->
 ## Authors
 Nguyen Manh Duc - ducnguyenmanh7791@gmail.com  
@@ -101,7 +100,6 @@ Project Link: [https://github.com/kynestic/NVIDIA-Stock-prediction](https://gith
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-
 
 
 ## Thank you
