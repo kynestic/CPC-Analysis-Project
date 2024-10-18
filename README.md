@@ -70,8 +70,8 @@ Before setting up the project, you need to install the following:
 - **torch** (2.4.1)
 - **transformers** (4.45.2)
 - **selenium** (4.25.0)
-- **selenium** (4.25.0)
-- **ipykernel** (6.29.5)
+- **ipykernel** (6.29.5)  
+
 ### Installation
 1. Clone the repo
   ```sh
