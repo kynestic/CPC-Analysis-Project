@@ -49,10 +49,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Dự án này được tạo ra nhằm mục đích chính nghiên cứu và học cách sử dụng một số model phổ biến như BERT, T5, CLIP để xử lý văn bản liên quan tới các sự kiện đồng thời kết hợp với dữ liệu mua ra/bán vào/số lượng để tiến hành dự đoán giá cổ phiếu của NVIDIA trong tương lai.
-[Here goes the title with hyperlink](https://github.com/catiaspsilva/README-template)
-
-You can include tables or images to summarize your results when and if appropriate.
+This project was created with the main goal of researching and learning how to use some popular models such as BERT, T5 and CLIP to process text related then combine with buy/sell/volume data to predict NVIDIA's stock price in the future.
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -81,16 +78,11 @@ In this section you should provide instructions on how to use this repository to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. For course projects, include which file to execute and the format of any input variables.
 
-Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/catiaspsilva/README-template/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -104,7 +96,7 @@ See the [open issues](https://github.com/catiaspsilva/README-template/issues) fo
 <!-- Authors -->
 ## Authors
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Your Name - [@your_linkedin](https://www.linkedin.com/in/helloimkyne/) - ducnguyenmanh7791@gmail.com
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
