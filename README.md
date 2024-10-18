@@ -50,7 +50,16 @@ This project was created with the main goal of researching and learning how to u
 
 <!-- GETTING STARTED -->
 ## Getting Started
+Before setting up the project, you need to install the following:
 
+1. Visual Studio Code (VSC)  
+  Visual Studio Code is a lightweight, powerful code editor that supports extensions for various programming languages.
+
+2. Python 3.x  
+  Python is the programming language required to run the project. Ensure you have version 3.x installed.
+
+3. venv (Virtual Environment)  
+  A virtual environment is recommended to isolate project dependencies. This can be created using the built-in `venv` module in Python.
 
 ### Dependencies
 
