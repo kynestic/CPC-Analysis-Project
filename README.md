@@ -46,7 +46,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project was created with the main goal of researching and learning how to use some popular models such as BERT, T5 and CLIP to process text related then combine with buy/sell/volume data to predict NVIDIA's stock price in the future.
+This project was created with the main goal of researching and learning how to use some popular models such as BERT, T5 and CLIP to process events then combine with buy/sell/volume data to predict NVIDIA's stock price in the future.
 
 <!-- GETTING STARTED -->
 ## Getting Started
