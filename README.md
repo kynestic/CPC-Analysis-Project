@@ -8,7 +8,7 @@
   <h3 align="center">README Template</h3>
 
   <p align="center">
-    A README template to jumpstart your projects!
+    NVIDIA Stock Prediction Project
     <br />
     <a href="https://github.com/catiaspsilva/README-template/blob/main/images/docs.txt"><strong>Explore the docs »</strong></a>
     <br />
@@ -54,8 +54,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-In this section you should describe your project, including any datasets you used and appropriate citations. You may refer to your project report or cite your paper for more detailed information.
-
+Dự án này được tạo ra nhằm mục đích chính nghiên cứu và học cách sử dụng một số model phổ biến như BERT, T5, CLIP để xử lý văn bản liên quan tới các sự kiện đồng thời kết hợp với dữ liệu mua ra/bán vào/số lượng để tiến hành dự đoán giá cổ phiếu của NVIDIA trong tương lai.
 [Here goes the title with hyperlink](https://github.com/catiaspsilva/README-template)
 
 You can include tables or images to summarize your results when and if appropriate.
@@ -67,29 +66,11 @@ In this section you should provide instructions on how to use this repository to
 
 ### Dependencies
 
-Here, list all libraries, packages and other dependencies that need to be installed to run your project. Include library versions and how they should be installed if a special requirement is needed.
-
-For example, this is how you would list them:
-* Transformers 4.8.0
-  ```sh
-  conda install -c conda-forge transformers
-  ```
-* OpenCV 4.5.2
-  ```sh
-  conda install -c conda-forge opencv
-  ```
-### Alternative: Export your Environment
-
-Alternatively, you can export your Python working environment, push it to your project's repository and allow users to clone it locally. This way, anyone can install it and they will have all dependencies needed. Here is how you export a copy of your Python environment:
+Để cài đặt các thư viện cần thiết, ta nhập lệnh sau vào terminal:
 
   ```sh
-  conda env export > requirements.yml
-  ```
-
-The user will be able to recreate it using:
-
-  ```sh
-  conda env create -f requirements.yml
+cd path/to/project
+pip install -r requirements.txt
   ```
 
 ### Installation
@@ -120,19 +101,10 @@ See the [open issues](https://github.com/catiaspsilva/README-template/issues) fo
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 
 <!-- LICENSE -->
 ## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
+.
 
 
 <!-- Authors -->
@@ -146,15 +118,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-You can acknowledge any individual, group, institution or service.
-* [Catia Silva](https://faculty.eng.ufl.edu/catia-silva/)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
+
 
 ## Thank you
 

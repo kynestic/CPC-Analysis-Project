@@ -6,7 +6,7 @@ import pandas as pd
 tokenizer = BERTTokenizer.from_pretrained("bert-base-uncased", cache_dir='./model_cache')
 model = BERTModel.from_pretrained("bert-base-uncased", cache_dir='./model_cache')
 
-df = pd.read_csv(r'D:\CODING\Project\NVIDIA Stock prediction\data\processed\stock_news_price.csv')
+df = pd.read_csv(r'data\processed\stock_news_price.csv')
 
 embedding_text = []
 line = 0
@@ -29,4 +29,4 @@ for item in df['events']:
     embedding_text.append(mean_events_embedding)
 
 data = pd.DataFrame(embedding_text)
-data.to_csv(r'D:\CODING\Project\NVIDIA Stock prediction\data\raw\CLIP_EmbeddingText.csv', index=False)
+data.to_csv(r'data\embedding_text\CLIP_EmbeddingText.csv', index=False)

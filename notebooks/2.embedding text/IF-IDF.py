@@ -26,5 +26,5 @@ if len(df['events']) != len(tfidf_results):
 else:
     print(len(df['events']))
     print(len(tfidf_results))
-    tfidf_results.to_csv(r'D:\CODING\Project\NVIDIA Stock prediction\data\raw\IF-IDF_EmbeddingText.csv', index=False)
+    tfidf_results.to_csv(r'data\embedding_text\IF-IDF_EmbeddingText.csv', index=False)
 print("TF-IDF features extracted and saved to news_vector.csv")
