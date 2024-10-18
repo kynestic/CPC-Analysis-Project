@@ -54,6 +54,7 @@ This project was created with the main goal of researching and learning how to u
 <!-- GETTING STARTED -->
 ## Getting Started
 
+
 ### Dependencies
 
 
@@ -73,9 +74,9 @@ This project was created with the main goal of researching and learning how to u
   pip install -r requirements.txt
   ```
 
+
 <!-- USAGE EXAMPLES -->
 ## Usage
-
 
 
 <!-- ROADMAP -->
