@@ -61,11 +61,17 @@ Before setting up the project, you need to install the following:
 3. venv (Virtual Environment)  
   A virtual environment is recommended to isolate project dependencies. This can be created using the built-in `venv` module in Python.
 
-### Dependencies
-- Visual Studio Code (VSC)  
-- Python 3.x  
-- venv (Virtual Environment)  
-
+### Major Dependencies
+- **huggingface-hub** (0.25.2)
+- **numpy** (2.1.1)
+- **pandas** (2.2.3).
+- **scikit-learn** (1.5.2)
+- **scipy** (1.14.1)
+- **torch** (2.4.1)
+- **transformers** (4.45.2)
+- **selenium** (4.25.0)
+- **selenium** (4.25.0)
+- **ipykernel** (6.29.5)
 ### Installation
 1. Clone the repo
   ```sh
