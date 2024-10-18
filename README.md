@@ -96,9 +96,9 @@ In this section you should provide instructions on how to use this repository to
 <!-- Authors -->
 ## Authors
 
-Your Name - [@your_linkedin](https://www.linkedin.com/in/helloimkyne/) - ducnguyenmanh7791@gmail.com
+Your Name - [Nguyen Manh Duc](https://www.linkedin.com/in/helloimkyne/) - ducnguyenmanh7791@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/kynestic/NVIDIA-Stock-prediction](https://github.com/kynestic/NVIDIA-Stock-prediction)
 
 
 <!-- ACKNOWLEDGEMENTS -->
