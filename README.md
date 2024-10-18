@@ -62,7 +62,9 @@ Before setting up the project, you need to install the following:
   A virtual environment is recommended to isolate project dependencies. This can be created using the built-in `venv` module in Python.
 
 ### Dependencies
-
+- Visual Studio Code (VSC)  
+- Python 3.x  
+- venv (Virtual Environment)  
 
 ### Installation
 1. Clone the repo
