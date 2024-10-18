@@ -89,7 +89,7 @@ This project was created with the main goal of researching and learning how to u
 
 <!-- LICENSE -->
 ## License
-.
+
 
 <!-- Authors -->
 ## Authors
