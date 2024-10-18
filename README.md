@@ -93,8 +93,8 @@ This project was created with the main goal of researching and learning how to u
 
 <!-- Authors -->
 ## Authors
-Nguyen Manh Duc - ducnguyenmanh7791@gmail.com
-Nguyen Thi Hai Yen - haiyen190903@gmail.com
+Nguyen Manh Duc - ducnguyenmanh7791@gmail.com  
+Nguyen Thi Hai Yen - haiyen190903@gmail.com  
 
 Project Link: [https://github.com/kynestic/NVIDIA-Stock-prediction](https://github.com/kynestic/NVIDIA-Stock-prediction)
 
