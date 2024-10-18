@@ -1,10 +1,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/catiaspsilva/README-template">
-    <img src="images/gators.jpg" alt="Logo" width="150" height="150">
-  </a>
-
   <h3 align="center">NVIDIA Stock Prediction Project</h3>
 
   <p align="center">
@@ -14,9 +10,9 @@
     <br />
     <a href="#usage">View Demo</a>
     ·
-    <a href="https://github.com/catiaspsilva/README-template/issues">Report Bug</a>
+    <a href="https://github.com/kynestic/NVIDIA-Stock-prediction/issues">Report Bug</a>
     ·
-    <a href="https://github.com/catiaspsilva/README-template/issues">Request Feature</a>
+    <a href="https://github.com/kynestic/NVIDIA-Stock-prediction/issues">Request Feature</a>
   </p>
 </p>
 
@@ -65,22 +61,21 @@ In this section you should provide instructions on how to use this repository to
 
 ### Dependencies
 
-Để cài đặt các thư viện cần thiết, ta nhập lệnh sau vào terminal:
-
-  ```sh
-cd path/to/project
-pip install -r requirements.txt
-  ```
 
 ### Installation
-
 1. Clone the repo
    ```sh
-   git clone https://github.com/catiaspsilva/README-template.git
+   https://github.com/kynestic/NVIDIA-Stock-prediction
    ```
 2. Setup (and activate) your environment
   ```sh
-  conda env create -f requirements.yml
+  python -m venv /path/to/new/virtual/environment
+  /path/to/new/virtual/environment/Scripts/activate
+  ```
+3. Để cài đặt các thư viện cần thiết, ta nhập lệnh sau vào terminal:
+  ```sh
+  cd path/to/project
+  pip install -r requirements.txt
   ```
 
 <!-- USAGE EXAMPLES -->
