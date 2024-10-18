@@ -1,8 +1,10 @@
 import torch
+import time
 from transformers import BertModel, BertTokenizer  # Correct import from transformers
 import numpy as np
 import pandas as pd
 
+start_time = time.time()
 tokenizer = BertTokenizer.from_pretrained("bert-base-uncased", cache_dir='./model_cache')
 model = BertModel.from_pretrained("bert-base-uncased", cache_dir='./model_cache')
 
@@ -32,5 +34,10 @@ for item in df['events']:
     embedding_text.append(mean_events_embedding)
 
 data = pd.DataFrame(embedding_text)
+data['timestamp'] = df['timestamp']
 data.to_csv(r'data\embedding_text\BERT_EmbeddingText.csv', index=False)
 print("Embeddings saved to BERT_EmbeddingText.csv")
+
+end_time = time.time()
+execution_time = end_time - start_time
+print(f"Execution time: {execution_time} seconds")

@@ -1,8 +1,10 @@
 import torch
+import time
 from transformers import T5Tokenizer, T5EncoderModel
 import numpy as np
 import pandas as pd
 
+start_time = time.time()
 # Use T5 tokenizer and model
 tokenizer = T5Tokenizer.from_pretrained("t5-base", cache_dir='./model_cache')
 # Use the T5EncoderModel instead of T5Model
@@ -42,4 +44,9 @@ for item in df['events']:
 
 # Save the result
 data = pd.DataFrame(embedding_text)
+data['timestamp'] = df['timestamp']
 data.to_csv(r'data\embedding_text\T5_EmbeddingText.csv', index=False)
+
+end_time = time.time()
+execution_time = end_time - start_time
+print(f"Execution time: {execution_time} seconds")
