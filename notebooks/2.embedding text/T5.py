@@ -21,26 +21,16 @@ print(df)
 for item in df['events']:
     line += 1
     print(line)
-    events_embedding = []
-
-    list_item = item.split(',')
-
-    for event in list_item:
-        # Tokenize the event
-        inputs = tokenizer(event, return_tensors='pt', padding=True, truncation=True)
-
-        # Get the embeddings
-        with torch.no_grad():
-            outputs = model(**inputs)
-
-        # Use the last hidden state
-        event_embedding = outputs.last_hidden_state.mean(dim=1).cpu().numpy() # Shape: (1, hidden_size)
-        events_embedding.append(event_embedding)
+    # Tokenize the event
+    inputs = tokenizer(item, return_tensors='pt', padding=True, truncation=True)
+    # Get the embeddings
+    with torch.no_grad():
+        outputs = model(**inputs)
+    # Use the last hidden state
+    event_embedding = outputs.last_hidden_state.mean(dim=1).cpu().numpy().reshape(-1) # Shape: (1, hidden_size)
 
     # Stack embeddings for all events and calculate the mean
-    events_embedding = np.vstack(events_embedding)
-    mean_events_embedding = np.mean(events_embedding, axis=0)
-    embedding_text.append(mean_events_embedding)
+    embedding_text.append(event_embedding)
 
 # Save the result
 data = pd.DataFrame(embedding_text)
