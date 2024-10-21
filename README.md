@@ -108,7 +108,7 @@ Before setting up the project, you need to install the following:
 <!-- Authors -->
 ## Authors
 Nguyen Manh Duc - ducnguyenmanh7791@gmail.com  
-Nguyen Hai Yen - haiyen190903@gmail.com  
+Nguyen Thi Yen - haiyen190903@gmail.com  
 
 Project Link: [https://github.com/kynestic/NVIDIA-Stock-prediction](https://github.com/kynestic/NVIDIA-Stock-prediction)
 
