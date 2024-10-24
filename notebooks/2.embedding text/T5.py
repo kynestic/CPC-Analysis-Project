@@ -11,7 +11,7 @@ tokenizer = T5Tokenizer.from_pretrained("t5-base", cache_dir='./model_cache')
 model = T5EncoderModel.from_pretrained("t5-base", cache_dir='./model_cache')
 
 # Read the dataset
-df = pd.read_csv(r'data.csv')
+df = pd.read_csv(r'data\synthesis\data.csv')
 
 embedding_text = []
 line = 0
@@ -35,7 +35,7 @@ for item in df['keyword']:
 # Save the result
 data = pd.DataFrame(embedding_text)
 data['timestamp'] = df['date']
-data.to_csv(r'T5_EmbeddingText.csv', index=False)
+data.to_csv(r'data\synthesis\embedding\T5_EmbeddingText.csv', index=False)
 
 end_time = time.time()
 execution_time = end_time - start_time

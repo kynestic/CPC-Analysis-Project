@@ -8,7 +8,7 @@ start_time = time.time()
 tokenizer = BertTokenizer.from_pretrained("bert-base-uncased", cache_dir='./model_cache')
 model = BertModel.from_pretrained("bert-base-uncased", cache_dir='./model_cache')
 
-df = pd.read_csv(r'data.csv')
+df = pd.read_csv(r'data\synthesis\data.csv')
 
 embedding_text = []
 line = 0
@@ -26,7 +26,7 @@ for item in df['keyword']:
 
 data = pd.DataFrame(embedding_text)
 data['timestamp'] = df['date']
-data.to_csv(r'BERT_EmbeddingText.csv', index=False)
+data.to_csv(r'data\synthesis\embedding\BERT_EmbeddingText.csv', index=False)
 
 end_time = time.time()
 execution_time = end_time - start_time
