@@ -11,14 +11,14 @@ tokenizer = T5Tokenizer.from_pretrained("t5-base", cache_dir='./model_cache')
 model = T5EncoderModel.from_pretrained("t5-base", cache_dir='./model_cache')
 
 # Read the dataset
-df = pd.read_csv(r'data\processed\stock_news_price.csv')
+df = pd.read_csv(r'data.csv')
 
 embedding_text = []
 line = 0
 print(df)
 
 # Loop through each event
-for item in df['events']:
+for item in df['keyword']:
     line += 1
     print(line)
     # Tokenize the event
@@ -34,8 +34,8 @@ for item in df['events']:
 
 # Save the result
 data = pd.DataFrame(embedding_text)
-data['timestamp'] = df['timestamp']
-data.to_csv(r'data\embedding_text\T5_EmbeddingText.csv', index=False)
+data['timestamp'] = df['date']
+data.to_csv(r'T5_EmbeddingText.csv', index=False)
 
 end_time = time.time()
 execution_time = end_time - start_time
