@@ -10,44 +10,62 @@ def generate_CPC():
     return round(np.random.uniform(0.1, 10.0), 2)
 
 
+# Định nghĩa từ điển chứa các chủ đề và từ khóa
 categories = {
     "fashion": [
-        "latest fashion", "fashion week", "fall outfits", "summer fashion", "winter collection",
-        "fashion trends", "new styles", "vintage fashion", "designer brands", "eco-friendly fashion",
-        "sustainable fashion", "street style", "luxury brands", "fast fashion", "celebrity style",
-        "fashion magazines", "online fashion stores", "fashion photography", "runway trends", "fashion influencers"
+        "trend", "style", "outfit", "collection", "design", "model", "brand", "fabric", "color", "accessory",
+        "runway", "vintage", "chic", "couture", "streetwear", "sustainable", "seasonal", "casual", "footwear", "print",
+        "boutique", "fashionista", "elegance", "lookbook", "wardrobe", "tailoring", "makeup", "photography", "influencer",
+        "apparel", "high-end", "collection", "online", "menswear", "womenswear", "beauty", "styleguide", "collaboration",
+        "elegance", "comfort", "festival", "bohemian", "outfitidea", "athleisure", "preppy", "statement", "layering",
+        "accessories", "runwayshow", "personalstyle"
     ],
     "politics": [
-        "election results", "political debate", "parliament session", "government policies", "international relations",
-        "diplomatic talks", "campaign rallies", "political scandals", "law reforms", "party conventions",
-        "policy discussions", "political speeches", "foreign policy", "senate hearings", "voting laws",
-        "political protests", "economic policies", "healthcare reforms", "education reforms", "tax policies"
+        "election", "debate", "policy", "government", "reform", "democracy", "campaign", "party", "senator", "legislation",
+        "protest", "diplomacy", "vote", "candidate", "administration", "authority", "nationalism", "leadership", "socialism",
+        "conservatism", "capitalism", "populism", "judiciary", "parliament", "scandal", "electioneering", "platform",
+        "constituents", "advocacy", "governance", "foreign", "statecraft", "voter", "polling", "mandate", "ethics",
+        "accountability", "grassroots", "oversight", "referendum", "civilrights", "negotiations", "dialogue", "tensions",
+        "arbitration", "consensus", "representation", "reforms", "initiatives", "treaties"
     ],
     "sport": [
-        "football match", "Olympic games", "NBA playoffs", "tennis tournament", "cricket world cup",
-        "FIFA world cup", "rugby championship", "cycling race", "marathon event", "golf tournament",
-        "boxing championship", "MMA fights", "basketball finals", "swimming competition", "track and field events",
-        "hockey league", "skiing competition", "volleyball championship", "surfing contest", "climbing competition"
+        "football", "basketball", "baseball", "tennis", "cricket", "hockey", "marathon", "swimming", "gymnastics", "wrestling",
+        "rugby", "athletics", "boxing", "cycling", "skiing", "skateboarding", "esports", "competition", "tournament", "championship",
+        "team", "coach", "fitness", "training", "performance", "endurance", "agility", "strategy", "equipment", "athlete",
+        "match", "season", "league", "records", "scores", "highlights", "fanbase", "sponsorship", "sportsmanship", "referee",
+        "officiating", "drills", "technique", "warmup", "meditation", "recovery", "injury", "rivalry", "sportsgear", "tournament"
     ],
     "travel": [
-        "travel destinations", "cheap flights", "holiday deals", "city tours", "beach vacations",
-        "adventure travel", "luxury hotels", "road trips", "backpacking trips", "cultural tours",
-        "mountain trekking", "island hopping", "national parks", "cruise vacations", "historical sites",
-        "eco-tourism", "wellness retreats", "ski resorts", "desert safaris", "jungle exploration"
+        "destination", "adventure", "itinerary", "vacation", "tour", "explore", "passport", "journey", "culture", "sightseeing",
+        "accommodation", "backpacking", "local", "travelblog", "flight", "transport", "adventure", "cruise", "city", "beach",
+        "resort", "nature", "landmark", "excursion", "guidebook", "hiking", "experience", "relaxation", "travelagent",
+        "photography", "travelcommunity", "wanderlust", "budget", "sustainable", "wildlife", "culinary", "heritage", "transportation",
+        "vacation", "festival", "citytour", "adventuretravel", "resort", "eco-tourism", "heritage", "historical", "picturesque",
+        "destinationwedding", "cruise", "getaway"
     ],
     "game": [
-        "new video games", "game releases", "e-sports events", "online multiplayer", "game tournaments",
-        "console gaming", "PC gaming", "mobile games", "strategy games", "action games",
-        "RPG games", "indie games", "virtual reality games", "augmented reality games", "MMORPG",
-        "puzzle games", "simulation games", "adventure games", "sports games", "arcade games"
+        "gaming", "action", "strategy", "shooter", "adventure", "multiplayer", "puzzle", "platformer", "simulation", "RPG",
+        "esports", "console", "PC", "mobile", "indie", "virtual", "reality", "augmented", "MMORPG", "arcade",
+        "narrative", "character", "development", "gameplay", "score", "level", "challenge", "community", "fanbase",
+        "tournament", "competition", "streaming", "content", "platform", "dev", "update", "release", "trailer",
+        "mechanics", "design", "graphics", "art", "soundtrack", "music", "characters", "worldbuilding", "universe"
     ],
     "cooking": [
-        "healthy recipes", "cooking tips", "new cookbooks", "baking recipes", "grilling techniques",
-        "vegetarian recipes", "vegan meals", "gluten-free recipes", "dessert ideas", "holiday recipes",
-        "quick meals", "one-pot recipes", "soups and stews", "sauces and dips", "international cuisines",
-        "meal prepping", "barbecue recipes", "comfort food", "keto meals", "low-carb recipes"
+        "recipe", "cooking", "baking", "grilling", "healthy", "vegetarian", "vegan", "gluten-free", "dessert", "meal",
+        "spice", "sauce", "dip", "international", "cuisine", "breakfast", "lunch", "dinner", "snack", "preparation",
+        "ingredient", "technique", "kitchen", "cookware", "chef", "flavor", "garnish", "presentation", "fusion", "mealprep",
+        "slowcooker", "stirfry", "salad", "soup", "steak", "pasta", "seafood", "sustainable", "seasonal", "comfort",
+        "bistro", "cafe", "bakery", "restaurant", "brunch", "catering", "barbecue", "tasting", "menu", "dining"
     ]
 }
+
+# In ra danh sách từ khóa cho mỗi chủ đề
+for category, keywords in categories.items():
+    print(f"Keywords for {category}:")
+    print(", ".join(keywords))
+    print("\n")
+
+
 
 data = []
 
