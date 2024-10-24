@@ -5,7 +5,7 @@ import ast
 import numpy as np
 
 start_time = time.time()
-df = pd.read_csv(r'data\processed\stock_news_price.csv')
+df = pd.read_csv(r'data\synthesis\data.csv')
 
 tfidf_results = pd.DataFrame()
 
@@ -31,7 +31,7 @@ else:
     print(len(df['events']))
     print(len(tfidf_results))
     tfidf_results['timestamp'] = df['timestamp']
-    tfidf_results.to_csv(r'data\embedding_text\IF-IDF_EmbeddingText.csv', index=False)
+    tfidf_results.to_csv(r'data\synthesis\embedding\IF-IDF_EmbeddingText.csv', index=False)
 
 end_time = time.time()
 execution_time = end_time - start_time
