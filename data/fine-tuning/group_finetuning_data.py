@@ -1,0 +1,306 @@
+sport_keywords = [
+    "football", "basketball", "baseball", "soccer", "tennis", "golf", "hockey",
+    "volleyball", "cricket", "rugby", "swimming", "athletics", "boxing", 
+    "wrestling", "cycling", "skiing", "snowboarding", "gymnastics", "track",
+    "field", "marathon", "triathlon", "racquetball", "badminton", "softball",
+    "netball", "dodgeball", "ultimate frisbee", "surfing", "diving", "water polo",
+    "paddleboarding", "rock climbing", "fishing", "hiking", "mountaineering", 
+    "yoga", "pilates", "crossfit", "bodybuilding", "powerlifting", "karate",
+    "taekwondo", "judo", "kickboxing", "fencing", "archery", "equestrian",
+    "motorsport", "formula one", "NASCAR", "MMA", "lacrosse", "squash", 
+    "skateboarding", "snowmobiling", "curling", "athlete", "team", "coach",
+    "referee", "umpire", "spectator", "fan", "trophy", "championship", 
+    "league", "tournament", "season", "playoff", "score", "goal", "point",
+    "assist", "match", "competition", "training", "drills", "practice",
+    "strategy", "analysis", "stats", "performance", "endurance", "strength",
+    "speed", "agility", "flexibility", "coordination", "reaction time",
+    "balance", "nutrition", "hydration", "warm-up", "cool down", "injury",
+    "rehabilitation", "therapy", "physical therapy", "fitness", "exercise",
+    "cardio", "weightlifting", "aerobics", "stretching", "wellness", 
+    "sportsmanship", "ethics", "fair play", "competition", "medals", 
+    "Olympics", "Paralympics", "World Cup", "Super Bowl", "NBA Finals",
+    "Stanley Cup", "Wimbledon", "US Open", "Grand Slam", "record", 
+    "personal best", "world record", "breakthrough", "draft", "recruit",
+    "scouting", "tryout", "athletic scholarship", "endorsement", "sponsorship",
+    "merchandise", "gear", "equipment", "uniform", "apparel", "shoes",
+    "accessories", "sports facility", "stadium", "arena", "field", 
+    "court", "gym", "track", "pool", "ring", "pitch", "course", 
+    "course record", "venue", "home game", "away game", "fan zone",
+    "cheerleading", "marching band", "halftime show", "tailgating",
+    "mascot", "sports media", "broadcasting", "commentary", "analysis",
+    "highlights", "replay", "fan engagement", "social media", "sports journalism",
+    "sports photography", "sporting events", "networking", "scheduling",
+    "ticket sales", "attendance", "merchandising", "fundraising", "charity events",
+    "youth sports", "amateur sports", "professional sports", "sports leagues",
+    "sports organizations", "national governing bodies", "international federations",
+    "sports policy", "sports law", "athletic training", "sports science",
+    "sports psychology", "sports medicine", "sports management", "coaching",
+    "mentorship", "leadership", "team building", "community engagement", 
+    "volunteering", "sports advocacy", "sports diplomacy", "sports development",
+    "youth programs", "inclusion in sports", "diversity in sports", "gender equality",
+    "sports culture", "sporting tradition", "sports history", "athletic legacy",
+    "sports innovation", "emerging sports", "extreme sports", "action sports",
+    "traditional sports", "indigenous sports", "cultural sports", "global sports",
+    "international competitions", "sports events", "sports festivals", 
+    "sports expos", "sports conventions", "fan festivals", "game day",
+    "sports tourism", "active lifestyle", "recreational sports", 
+    "sports initiatives", "health and wellness", "team sports", "individual sports",
+    "competitive sports", "non-competitive sports", "recreational activities", 
+    "family sports", "sports clubs", "sports leagues", "community sports", 
+    "school sports", "college sports", "professional leagues", "sports fan culture",
+    "extreme sports culture", "sports sponsorship", "sports branding", 
+    "sports merchandising", "sports analytics", "data-driven sports", 
+    "sports marketing", "sports promotions", "sports advertising", "sports technology",
+    "sports equipment", "sports software", "sports apps", "smart wearables",
+    "fitness trackers", "performance analytics", "data visualization", 
+    "biomechanics", "exercise science", "sports engineering", "exercise physiology"
+]
+
+space_keywords = [
+    "universe", "galaxy", "solar system", "planet", "star", "moon", "comet", "asteroid",
+    "black hole", "nebula", "light year", "cosmic", "gravity", "orbit", "spacecraft",
+    "satellite", "telescope", "astronomy", "astrophysics", "space exploration", "NASA",
+    "ESA", "launch", "mission", "rocket", "Mars", "Jupiter", "Saturn", "exoplanet",
+    "Milky Way", "dark matter", "dark energy", "Big Bang", "cosmology", "space station",
+    "International Space Station", "ISS", "human spaceflight", "astronaut", "rover",
+    "lander", "space shuttle", "launch pad", "space agency", "payload", "gravity assist",
+    "space debris", "orbital mechanics", "scientific research", "solar flares", "radiation",
+    "telescopic observations", "stellar evolution", "supernova", "quasar", "pulsar", "gamma-ray",
+    "cosmic rays", "planetary science", "space missions", "robotics", "space travel", "habitat",
+    "terraforming", "life in space", "microgravity", "space weather", "solar system dynamics",
+    "space colonies", "interstellar", "space tourism", "exploration rover", "landing craft",
+    "space elevator", "orbital station", "space habitat", "research station", "settlement",
+    "dark skies", "astronomical events", "eclipses", "transits", "celestial bodies", "orbiting",
+    "gravitational waves", "time dilation", "wormhole", "string theory", "multiverse",
+    "space propulsion", "ion drive", "nuclear thermal propulsion", "chemical propulsion", 
+    "solar sail", "planetary alignment", "star cluster", "space-time", "exobiology", 
+    "astrobiology", "search for extraterrestrial intelligence", "SETI", "habitable zone",
+    "biosignature", "astroengineering", "cosmic background radiation", "redshift", "galactic core",
+    "Hubble Space Telescope", "James Webb Space Telescope", "space observatory", "spectroscopy",
+    "space missions", "launch window", "payload capacity", "manifold", "cosmic inflation",
+    "stellar nursery", "protoplanetary disk", "magnetosphere", "solar system formation",
+    "space shuttle program", "Voyager probes", "Pioneer spacecraft", "Lunar Module", "Mars rover",
+    "Apollo program", "Challenger", "Columbia", "Explorer", "Gemini", "Mercury", 
+    "SpaceX", "Blue Origin", "commercial spaceflight", "new space economy", "rocket launch",
+    "payload deployment", "orbital rendezvous", "space tourism", "interplanetary travel",
+    "deep space", "local group", "galactic merger", "space law", "international space treaties",
+    "planetary defense", "asteroid mining", "space resources", "deep space habitats", "moon base",
+    "Mars colonization", "Lunar Gateway", "solar power", "radio astronomy", "optical astronomy",
+    "space art", "astro-photography", "planetarium", "dark sky reserve", "cosmic distance ladder",
+    "manned mission", "unmanned mission", "robotic exploration", "space architecture", "lunar exploration"
+]
+
+education_keywords = [
+    "learning", "teaching", "school", "university", "college", "curriculum", "syllabus",
+    "subjects", "mathematics", "science", "literature", "history", "geography", "language",
+    "art", "music", "physical education", "technology", "computer science", "engineering",
+    "social studies", "psychology", "philosophy", "ethics", "curriculum development",
+    "lesson plan", "assessment", "evaluation", "homework", "project", "presentation",
+    "group work", "classroom", "lecture", "seminar", "workshop", "field trip",
+    "student", "teacher", "professor", "instructor", "educator", "mentor", "peer learning",
+    "academic", "scholarship", "tuition", "enrollment", "admissions", "graduation",
+    "diploma", "degree", "bachelor's", "master's", "PhD", "certificate", "continuing education",
+    "online learning", "distance education", "e-learning", "MOOC", "interactive learning",
+    "educational resources", "textbook", "reference materials", "academic journal", 
+    "study skills", "critical thinking", "problem-solving", "creativity", "collaboration",
+    "communication", "research", "data analysis", "statistics", "case studies", "internship",
+    "apprenticeship", "vocational training", "professional development", "lifelong learning",
+    "soft skills", "hard skills", "class participation", "extracurricular activities", "sports",
+    "debate", "theater", "art club", "music band", "student council", "volunteering",
+    "community service", "field studies", "educational technology", "smart classroom", "tablets",
+    "computers", "software", "digital literacy", "language acquisition", "foreign language",
+    "literacy", "numeracy", "STEM", "STEAM", "coding", "robotics", "entrepreneurship",
+    "financial literacy", "global education", "civic education", "cultural competence",
+    "educational equity", "inclusion", "diversity", "learning disabilities", "gifted education",
+    "adaptive learning", "personalized learning", "curricular integration", "outdoor education",
+    "experiential learning", "hands-on learning", "service learning", "applied learning",
+    "project-based learning", "community engagement", "active learning", "educational policy",
+    "school administration", "school funding", "public education", "private education",
+    "charter schools", "homeschooling", "educational reform", "teacher training",
+    "teacher certification", "continuing professional development", "classroom management",
+    "instructional strategies", "learning outcomes", "student achievement", "standardized testing",
+    "assessment tools", "feedback", "peer review", "educational psychology", "learning theories",
+    "cognitive development", "social learning", "constructivism", "behaviorism", "theory of multiple intelligences",
+    "critical pedagogy", "educational philosophy", "socratic method", "Montessori", "Waldorf",
+    "Reggio Emilia", "traditional education", "modern education", "educational trends",
+    "21st-century skills", "global citizenship", "academic integrity", "research ethics",
+    "peer mentoring", "cooperative learning", "dual enrollment", "early childhood education",
+    "secondary education", "higher education", "adult education", "non-formal education",
+    "educational assessment", "learner-centered approach", "inclusive education", "family engagement"
+]
+
+cooking_keywords = [
+    "baking", "grilling", "roasting", "steaming", "frying", "sautéing", "braising", 
+    "stir-frying", "poaching", "simmering", "blanching", "cooking techniques", "cuisine",
+    "recipe", "ingredients", "seasoning", "sauce", "marinade", "dressing", "appetizer",
+    "main course", "dessert", "snack", "breakfast", "lunch", "dinner", "meal prep",
+    "plating", "presentation", "garnish", "herbs", "spices", "vegetables", "meat",
+    "seafood", "pasta", "grains", "rice", "beans", "legumes", "nuts", "fruits",
+    "baking powder", "baking soda", "yeast", "flour", "sugar", "salt", "pepper",
+    "oil", "butter", "cream", "cheese", "chocolate", "vanilla", "egg", "milk",
+    "broth", "stock", "vegetable oil", "olive oil", "coconut oil", "vinegar",
+    "wine", "food safety", "storage", "preparation", "kitchen tools", "utensils",
+    "knife skills", "cutting board", "pan", "pot", "oven", "stove", "grill",
+    "slow cooker", "pressure cooker", "air fryer", "blender", "food processor", 
+    "mixing bowl", "measuring cups", "spatula", "whisk", "tongs", "peeler",
+    "grater", "sifter", "steamer", "skillet", "wok", "roasting pan", "casserole",
+    "baking sheet", "cookie cutter", "pastry", "bread", "cake", "pie", "cookies",
+    "pudding", "sorbet", "gelato", "ice cream", "syrup", "salsa", "dip",
+    "spread", "wrap", "sandwich", "taco", "pizza", "pasta salad", "quiche",
+    "lasagna", "stew", "soup", "curry", "stir fry", "gratin", "tart",
+    "scones", "croissant", "pancake", "waffle", "omelette", "frittata", 
+    "salad", "sushi", "dim sum", "tapas", "charcuterie", "fondue", "breakfast burrito",
+    "smoothie", "juice", "fermentation", "pickling", "smoking", "preserving",
+    "canning", "food trends", "vegetarian", "vegan", "gluten-free", "low-carb",
+    "paleo", "keto", "organic", "sustainable", "farm-to-table", "meal kit",
+    "home cooking", "culinary arts", "food blogs", "cookbooks", "chefs",
+    "cooking shows", "food network", "gourmet", "fast food", "street food",
+    "international cuisine", "fusion", "traditional dishes", "cultural dishes",
+    "food pairing", "taste testing", "dining", "restaurant", "food service",
+    "hospitality", "food photography", "food styling", "food presentation", 
+    "cooking classes", "culinary schools", "apprenticeship", "chef competition",
+    "food science", "nutrition", "diet", "meal planning", "food sourcing",
+    "local ingredients", "seasonal cooking", "farmers market", "food systems",
+    "food security", "culinary history", "food culture", "food festivals",
+    "gourmet dining", "fine dining", "ethnic cuisine", "home baking", "cooking tips"
+]
+
+game_keywords = [
+    "console", "gaming", "esports", "multiplayer", "singleplayer", "strategy", "shooter", "platformer", "rpg", "mmo",
+    "arcade", "indie", "simulation", "sandbox", "openworld", "character", "mission", "level", "powerup", "speedrun",
+    "achievement", "quest", "avatar", "controller", "leaderboard", "replayability", "crafting", "inventory", "combat", "skills",
+    "stealth", "puzzle", "dialogue", "sandbox", "item", "trading", "loot", "boss", "cutscene", "minigame", "highscore",
+    "progression", "real-time", "turnbased", "bossfight", "sidequest", "cutscenes", "unlockable", "missions", "clan",
+    "guild", "battlepass", "ranking", "ladder", "sandboxgame", "fighting", "shooter", "dungeons", "survival", "interface",
+    "melee", "controller", "openworldgame", "adventure", "gameplay", "storyline", "plot", "hero", "villain",
+    "ai", "co-op", "horde", "competitive", "br", "ranked", "skin", "mount", "class", "hero",
+    "villain", "inventory", "collectibles", "rareitems", "seasonpass", "dailyquest", "dlc", "expansion", "engine", "graphics",
+    "voicechat", "emotes", "matchmaking", "achievements", "battle", "arena", "replay", "balance", "buff", "nerf",
+    "respawn", "timelimit", "friendlyfire", "spectator", "rotation", "skins", "customization", "minimap", "streaming", "story",
+    "dialogue", "expansionpack", "coins", "powerups", "quests", "stealth", "clan", "campaign", "tutorial", "defense",
+    "cooperative", "onlineplay", "matchmaking", "raid", "explore", "endgame", "interactive", "open-ended", "contentupdate", "cinematic",
+    "equipment", "disguise", "trophy", "rank", "pathfinding", "virtualworld", "challenges", "waypoints", "headshot", "free-to-play",
+    "achievement", "rewards", "buffs", "competitivegaming", "voicecommands", "backstory", "gameloop", "hardcoremode", "gear", "guildwars",
+    "drops", "perk", "sandboxgame", "xp", "casualgaming", "hardcore", "consoleexclusive", "powerups", "perks", "aiming",
+    "bonuslevel", "scorestreak", "hud", "extra", "cosmetics", "battlepass", "leaderboards", "skilltree", "gamedesign", "expedition",
+    "tutorialmode", "booster", "gamebalance", "fogofwar", "respawns", "aesthetic", "gamerank", "clanbattles", "gamercommunity", "hype",
+    "bossfight", "arcadegame", "skillshot", "videogames", "speedruns", "experiencepoints", "respawn", "networkplay", "singleplayergame", "coopmode",
+    "multiplayergame", "virtualcurrency", "damage", "loadingtime", "dedicatedserver", "skills", "victory", "sandboxmode", "scoreboard", "online",
+    "tournament", "modding", "crossplay", "animation", "pixelart", "classic", "gamer", "playtest", "virtualreality", "platform",
+    "adaptive", "minimap", "controller", "physics", "soundtrack", "checkpoint", "collectibles", "score", "hardmode", "endgame",
+    "subscription", "win", "leaderboard", "gear", "co-op", "achievements", "expansions", "avatar", "cosmetics", "consumable",
+    "weapon", "ally", "enemy", "checkpoint", "reaction", "tactical", "replay", "content", "backstory", "opponent",
+    "unlocks", "maincharacter", "bossfight", "timedlevel", "emblem", "signaturemove", "leveldesign", "puzzleelement", "troop", "faction",
+    "questlog", "sidequests", "missionbriefing", "criticalhit", "savepoint", "bonusround", "speedboost", "difficultysetting", "achievementsystem", "villainboss",
+    "lastboss", "gearpiece", "skillcap", "cooldown", "terrain", "zones", "guildleader", "hardcoregamer", "field", "puzzleelement",
+    "comboattack", "alliance", "characterclass", "trophies", "iteminventory", "endboss", "teambased", "party", "levelup", "interactiveelements",
+    "damageboost", "soundeffects", "reactiontime", "strats", "itemloadout", "iconic", "timedevent", "rankup", "npc", "starterpack",
+    "classicgame", "climbtheranks", "gamechat", "videogaming", "hardestlevel", "consolegame", "bonusmission", "skinned", "legendaryitem", "taunt",
+    "gamegenre", "onlinematch", "arcadestyle", "fastpaced", "itemexchange", "topscore", "limitededition", "ultra", "difficultyboss", "artifact",
+    "logintobonus", "indiegame", "roguelike", "championship", "damageoutput", "dualcontroller", "arenaevent", "armorpiece", "frag", "skillsystem",
+    "charcustomization", "defensemechanic", "firstplace", "unlockablemode", "squadmember", "trophyrank", "ghostmode", "gamerprofile", "newcontent", "hitpoints",
+    "targetsystem", "realism", "platformexclusive", "openmatch", "eventrewards", "craftingstation", "playerbase", "endboss", "brawler", "spawnpoint",
+    "crossplay", "gameseries", "avatarcustom", "freerun", "infinitelives", "life", "trophyachievement", "legendary", "adventuremode", "digitalitem"
+]
+
+fashion_keywords = [
+    "trend", "style", "outfit", "collection", "design", "model", "brand", "fabric", "color", "accessory",
+    "runway", "vintage", "chic", "couture", "streetwear", "sustainable", "seasonal", "casual", "footwear", "print",
+    "boutique", "fashionista", "elegance", "lookbook", "wardrobe", "tailoring", "makeup", "photography", "influencer",
+    "apparel", "high-end", "fashionweek", "readytowear", "menswear", "womenswear", "beauty", "styleguide", "collaboration",
+    "elegance", "comfort", "festival", "bohemian", "outfitidea", "athleisure", "preppy", "statement", "layering",
+    "accessories", "runwayshow", "personalstyle", "jewelry", "jumpsuit", "denim", "sneakers", "minimalist", "styling",
+    "fashionblogger", "edgy", "floral", "haute", "hairstyle", "fashionable", "scarf", "beanie", "silhouette",
+    "fashionlover", "knitwear", "formalwear", "trendsetter", "editorial", "ensemble", "fashionblog", "streetfashion", "maximalist",
+    "glamour", "catwalk", "newcollection", "handbag", "designer", "boho", "luxury", "casualwear", "colorpalette", "monochrome",
+    "pastel", "bold", "puffer", "parisfashionweek", "brandcollab", "timeless", "cozy", "fallfashion", "winterwear", "trendalert",
+    "wardrobeessential", "runwayinspiration", "fashiongram", "newseason", "winterfashion", "everydaystyle", "statementpiece", "prints", "inspo",
+    "turtleneck", "ruffles", "cardigan", "showroom", "modeling", "fashiontrends", "ready-to-wear", "iconic", "sustainablefashion", "recycled",
+    "graphictee", "vogue", "iconiclook", "pattern", "minimal", "oversized", "mixandmatch", "fashiongoals", "retro", "bespoke",
+    "luxurystyle", "lookoftheday", "outfitpost", "ootd", "chiclook", "capsulewardrobe", "fashiongoals", "timelessfashion", "stylish",
+    "textiles", "couturecollection", "onlineboutique", "edgyfashion", "belted", "tailored", "fitting", "styleinspo", "silk",
+    "flowy", "styleinfluencer", "bag", "oversizedfit", "couturebrand", "wardrobestaple", "knitdress", "suits", "neutrals",
+    "eveningwear", "elegantlook", "draped", "fashiondesign", "colorscheme", "urbanwear", "fashionaddict", "outfitinspiration", "moda",
+    "slipdress", "midi", "bodysuit", "jacket", "metallics", "platforms", "rhinestone", "boots", "summervibes",
+    "patterned", "glitter", "croptop", "textured", "rippedjeans", "sheer", "strapless", "ankleboots", "athleticwear", "softwear",
+    "branded", "fashionmag", "highstreet", "jewellery", "stunning", "eyewear", "dressingroom", "trendy", "necklace", "streetstyle",
+    "springfashion", "fallcollection", "iconiclooks", "sparkles", "lux", "fashionhouse", "lace", "cutout", "vintagefind", "fashioninspo",
+    "ecomaterial", "springcollection", "athleisurewear", "gown", "sheath", "statementjewelry", "belt", "choker", "slingback", "poncho",
+    "ecoconscious", "bomber", "bralette", "printmix", "elegantdetails", "feminine", "asymmetrical", "colorblocking", "sunhat", "peplum",
+    "handstitched", "bespokeclothing", "fashionweek", "sustainablefabric", "runwaylook", "minimalism", "lookbookinspo", "chicstyle", "croptop", "kimonos",
+    "scarfstyle", "spacedye", "offshoulder", "outerwear", "hats", "popofcolor", "summerdress", "maxidress", "bohobabe", "blacktie",
+    "timelessdesign", "handcrafted", "smallbatch", "ecoapparel", "velvet", "garment", "sleeklook", "readytowear", "sportstyle", "casualstyle",
+    "earthtone", "stitching", "denimwear", "formalstyle", "holidayfashion", "pastelcolors", "fabricswatch", "designeraesthetic", "polkadots", "longline",
+    "fashiontrends", "daywear", "trendssetter", "lifestyle", "dailyfashion", "pearls", "onepiece", "crochetwear", "neoncolors", "tassel",
+    "polishlook", "vintagefashion", "hairstyle", "sweater", "sweatshirt", "tailoringdetails", "contemporaryfashion", "urbanwear", "pants", "dressy",
+    "structured", "modestfashion", "minimaloutfit", "trenchcoat", "woolcoat", "recyclefashion", "modernfashion", "thrifted", "accessoryaddict", "lacey",
+    "bagsaddiction", "ecoattire", "boutiquechic", "timelesspieces", "crochetstyle", "slowfashion", "summerstyle", "bootslover", "pufferjacket", "velour",
+    "shadesofgreen", "handmadewear", "organic", "ootdstyle", "sleekstyle", "autumnvibes", "newlook", "fashionlabel", "streettrend", "newwave"
+]
+
+
+travel_keywords = [
+    "adventure", "destination", "vacation", "holiday", "trip", "itinerary", "tourism",
+    "sightseeing", "exploration", "road trip", "backpacking", "travel guide", "accommodation",
+    "hotel", "hostel", "motel", "resort", "Airbnb", "vacation rental", "bed and breakfast",
+    "camping", "glamping", "flight", "airfare", "travel insurance", "passport", "visa",
+    "currency exchange", "public transport", "car rental", "local cuisine", "cultural experience",
+    "travel photography", "travel blog", "travel tips", "travel hacks", "packing list",
+    "luggage", "carry-on", "backpack", "travel accessories", "travel apps", "guides",
+    "tour", "guided tour", "cruise", "expedition", "safari", "road less traveled",
+    "travel community", "wanderlust", "jet lag", "staycation", "international travel",
+    "domestic travel", "budget travel", "luxury travel", "eco-tourism", "adventure travel",
+    "travel reviews", "food tours", "cultural festivals", "heritage sites", "national parks",
+    "beaches", "mountains", "cities", "countryside", "scenic routes", "landmarks",
+    "museums", "art galleries", "historical sites", "monuments", "architecture",
+    "urban exploration", "wildlife", "nature", "hiking", "trekking", "biking",
+    "water sports", "skiing", "snowboarding", "scuba diving", "snorkeling", "fishing",
+    "surfing", "rock climbing", "zip-lining", "sightseeing tours", "cultural immersion",
+    "local customs", "traditions", "festivals", "celebrations", "volunteering", 
+    "philanthropy", "road conditions", "travel warnings", "health advisories", "safety tips",
+    "sustainable travel", "carbon footprint", "green travel", "responsible tourism",
+    "travel blogs", "vlogs", "influencers", "travel photography", "journals", "memories",
+    "souvenirs", "travel stories", "packing cubes", "multi-currency card", "gifts",
+    "tour operators", "travel agencies", "expedia", "booking.com", "tripadvisor",
+    "Skyscanner", "Google Flights", "Airfarewatchdog", "travel insurance", "emergency contacts",
+    "communication", "language barriers", "translation apps", "cultural etiquette",
+    "local laws", "dining etiquette", "shopping", "souvenir shopping", "artisan markets",
+    "street food", "gastronomy", "culinary tours", "roadside attractions", "hidden gems",
+    "off the beaten path", "local secrets", "short getaways", "weekend trips", "long haul",
+    "layover", "time zone", "seasonal travel", "weather", "holiday traditions",
+    "festival culture", "world heritage", "UNESCO sites", "eco-friendly accommodations",
+    "adventure sports", "cultural exchanges", "solo travel", "group travel", "family vacations",
+    "travel deals", "last-minute travel", "early booking", "flash sales", "loyalty programs"
+]
+
+import pandas as pd
+
+data = []
+
+for item in travel_keywords:
+    data.append((item, 'travel'))
+
+for item in sport_keywords:
+    data.append((item, 'sport'))
+
+for item in cooking_keywords:
+    data.append((item, 'cooking'))
+
+for item in space_keywords:
+    data.append((item, 'space'))
+
+for item in education_keywords:
+    data.append((item, 'education'))
+
+for item in game_keywords:
+    data.append((item, 'game'))
+
+for item in fashion_keywords:
+    data.append((item, 'fashion'))
+
+df = pd.DataFrame(data, columns=['keyword', 'label'])
+df.to_csv(r'data\fine-tuning\keyword_label.csv', index=False)
+
+
+
+
