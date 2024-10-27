@@ -5,7 +5,7 @@
 
   <p align="center">
     <br />
-    <a href="document\moredetaildocs.txt"><strong>Explore the docs »</strong></a>
+    <a href="https://curvy-scene-7cf.notion.site/Project-Report-NVIDIA-Stock-Prediction-12638586a6b380f89c51df52f44d56c4"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="#usage">View Demo</a>
