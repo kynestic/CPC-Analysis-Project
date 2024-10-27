@@ -91,7 +91,8 @@ Before setting up the project, you need to install the following:
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
+  Due to the lack of CPC data in real life, we only create synthesis data with the support of LLM: chatGPT, Gemini,...
+  Follow the path data\synthesis, we can see the file data_synthesis.py. This is where we create synthesis data for prediction task.
 
 <!-- ROADMAP -->
 ## Roadmap
