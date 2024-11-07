@@ -69,7 +69,7 @@ data = []
 
 for date in date_range:
     for category, keywords_list in categories.items():
-        random_keywords = np.random.choice(keywords_list, np.random.randint(0, 5), replace=False)
+        random_keywords = np.random.choice(keywords_list, np.random.randint(0, 3), replace=False)
         for item in random_keywords:
             data.append([date, item, generate_CPC()])
 
