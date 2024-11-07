@@ -2,3 +2,4 @@ venv
 model_cache
 IF-IDF_EmbeddingText.csv
 fine_tuned_model
+ml-mobileclip
