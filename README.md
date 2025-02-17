@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <h3 align="center">NVIDIA Stock Prediction Project</h3>
+  <h3 align="center">CPC Analysis Project</h3>
 
   <p align="center">
     <br />
