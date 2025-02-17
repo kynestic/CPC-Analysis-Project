@@ -111,7 +111,7 @@ Before setting up the project, you need to install the following:
 Nguyen Manh Duc - ducnguyenmanh7791@gmail.com  
 Nguyen Thi Yen - haiyen190903@gmail.com  
 
-
+Project document: https://github.com/kynestic/CPC-Analysis-Project/blob/main/document/moredetaildocs.txt
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
