@@ -111,7 +111,7 @@ Before setting up the project, you need to install the following:
 Nguyen Manh Duc - ducnguyenmanh7791@gmail.com  
 Nguyen Thi Yen - haiyen190903@gmail.com  
 
-Project document: https://github.com/kynestic/CPC-Analysis-Project/blob/main/document/moredetaildocs.txt
+Project document: [Link](https://curvy-scene-7cf.notion.site/Project-Report-CPC-trend-prediction-12638586a6b380f89c51df52f44d56c4?pvs=4)
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
